@@ -1,0 +1,13 @@
+# Django security
+SECRET_KEY=your-secret-key-here
+
+# Debug mode (True/False)
+DEBUG_PROD=False
+DEBUG_DEV=True
+
+# Hosts allowed to connect (comma-separated)
+ALLOWED_HOSTS=127.0.0.1,localhost
+
+# Postgres database setup
+DATABASE_URL_DEV=postgresql-link-here
+DATABASE_URL_PROD=postgresql-link-here
