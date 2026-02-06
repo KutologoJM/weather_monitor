@@ -61,10 +61,13 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # "example.apps.AccountsConfig",
     "accounts.apps.AccountsConfig",
+    'weather.apps.WeatherConfig'
 ]
 
-INSTALLED_APPS: list = []
-INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
+INSTALLED_APPS: list = [
+
+]
+INSTALLED_APPS += DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 # --- End of Application Definition ---
 
 # New Default User
