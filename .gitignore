@@ -143,6 +143,7 @@ GitHub.sublime-settings
 # -------------------
 do_not_commit
 do_not_commit.html
+utilities/
 
 # -------------------
 # Temporary
