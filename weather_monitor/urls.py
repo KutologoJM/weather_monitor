@@ -44,6 +44,7 @@ urlpatterns = [
         warnings_as_errors=True,  # optional, default is True
     ), name='health_check'),
     # path('accounts/', include('accounts.urls'))
+    path("weather/", include("weather.urls"))
 ]
 
 if settings.DEBUG:

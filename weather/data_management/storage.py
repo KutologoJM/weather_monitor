@@ -184,7 +184,13 @@ class WeatherStorage:
 
 
 storage = WeatherStorage()
-print(storage.populate_daily_weather())
-print(storage.populate_current_weather())
-print(storage.populate_hourly_weather())
 
+
+def main():
+    print(storage.populate_daily_weather())
+    print(storage.populate_current_weather())
+    print(storage.populate_hourly_weather())
+
+
+if __name__ == "__main__":
+    main()
